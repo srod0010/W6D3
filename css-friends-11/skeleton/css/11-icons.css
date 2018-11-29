@@ -1,0 +1,33 @@
+/* PHASE 11: Icons */
+[class*="icon-"] {
+    display: inline-block;
+    background-image: url(".././images/cat.jpg");
+    background-size: 30px 200px;
+    vertical-align: bottom;
+    overflow: hidden;
+    height: 0;
+    width: 25px;
+    padding: 20px;
+}
+
+[class*="icon-small-"] {
+    width: 20px;
+    padding-top: 20px;
+}
+
+.icon-comment {
+    background-position: 0 0;
+}
+
+.icon-comment:hover {
+    background-position: 0 -30px;
+}
+
+.icon-reblog {
+    background-position: 0 -100px;
+}
+
+.icon-reblog:hover {
+    background-position: 0 -105px;
+}
+
